@@ -1,0 +1,101 @@
+[
+  {
+    "start": 0.0,
+    "end": 7.0,
+    "title": "01 / A customer asks a product question",
+    "caption": [
+      "From orbinsunny7306@gmail.com to orbinsunny7983@gmail.com",
+      "A 90 kg rider asks for a board recommendation and included accessories."
+    ],
+    "source": "frame-00020.png",
+    "kind": "still"
+  },
+  {
+    "start": 7.0,
+    "end": 12.0,
+    "title": "02 / The support mailbox receives it",
+    "caption": [
+      "The real query arrives in the integrated Gmail account.",
+      "The worker reads the thread and classifies the latest customer message."
+    ],
+    "source": "received.png",
+    "kind": "still"
+  },
+  {
+    "start": 12.0,
+    "end": 20.0,
+    "title": "03 / A grounded reply, sent automatically",
+    "caption": [
+      "The agent recommends the 11-foot All-round and lists the included accessories.",
+      "The thread receives ai-processed; this question does not require escalation."
+    ],
+    "source": "support-reply",
+    "kind": "clip"
+  },
+  {
+    "start": 20.0,
+    "end": 29.0,
+    "title": "04 / The customer receives the answer",
+    "caption": [
+      "The reply arrives in the original Gmail conversation.",
+      "Waiting time between sending and delivery has been cut from this walkthrough."
+    ],
+    "source": "customer-reply",
+    "kind": "clip"
+  },
+  {
+    "start": 29.0,
+    "end": 39.0,
+    "title": "05 / A saved conversation for the support team",
+    "caption": [
+      "Ticket 102 is answered in the paddle-boards category.",
+      "The dashboard stores both messages. Unrelated ticket rows are masked."
+    ],
+    "source": "ticket",
+    "kind": "clip"
+  },
+  {
+    "start": 39.0,
+    "end": 47.0,
+    "title": "06 / Product facts come from the knowledge base",
+    "caption": [
+      "The classifier selects paddle-boards; the agent retrieves the relevant section.",
+      "For a 90 kg rider, the 11-foot board supports up to 110 kg."
+    ],
+    "source": "sizes",
+    "kind": "clip"
+  },
+  {
+    "start": 47.0,
+    "end": 54.0,
+    "title": "07 / Maintained content shapes the response",
+    "caption": [
+      "The included-accessories entry supplies the second part of the answer.",
+      "Operators can edit entries here; this walkthrough leaves their content unchanged."
+    ],
+    "source": "accessories",
+    "kind": "clip"
+  },
+  {
+    "start": 54.0,
+    "end": 61.0,
+    "title": "08 / Processing is observable",
+    "caption": [
+      "Event 137 completed on its first attempt with action=reply.",
+      "Events show status, attempts, errors and creation time; decisions are stored in the API."
+    ],
+    "source": "events.png",
+    "kind": "still"
+  },
+  {
+    "start": 61.0,
+    "end": 73.0,
+    "title": "09 / Evals check the output decisions",
+    "caption": [
+      "Pydantic Evals checks section and action across six golden emails.",
+      "Supplied run: 11/12 assertions passed (91.7%). One angry-refund assertion failed."
+    ],
+    "source": "../evaluation-summary.png",
+    "kind": "still"
+  }
+]

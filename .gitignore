@@ -1,0 +1,23 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Frontend build output
+node_modules/
+dashboard/dist/
+
+# Local artifacts
+.DS_Store
+*.log
+media/source/
